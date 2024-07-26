@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my Practice Wrold</title>
+    <style>
+        body{
+            max-width: 1500px;
+            margin: 0 auto;
+        }
+        h1{
+            background-color: gray;
+            text-align: center;
+            padding: 8px;
+            color: white;
+        }
+        nav{
+            background-color: lightgray;
+            padding: 10px;
+        }
+        .list-style-none{
+            list-style: none;
+        }
+        nav img{
+            width: 3rem;
+            /* border: 5px double white; */
+            background-color: gray;
+            border-radius: 15px;
+            padding: 15px;
+        }
+        nav li {
+            font-size: 1.5rem;
+
+        }
+        .flex{
+            display: flex;
+        
+        }
+        .flex-center{
+            justify-content: center;
+        }
+        .itemes-center{
+            justify-items: center;
+        }
+        .flex-between{
+            justify-content: space-between;
+        }
+        nav li .dropdown{
+            display: none;
+        }
+        nav li:hover .dropdown{
+            display: block;
+            position: absolute;
+            background-color: blueviolet;
+       
+            padding: 10;
+            list-style: none;
+            text-align: center;
+
+        }
+        .gap-15{
+            gap: 15px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <h1>Welcome to my Practice Wrold</h1>
+
+    <nav class="flex flex-between itemes-center ">
+        <ul class="list-style-none">
+            <li>
+                <img src="responsive-marketing-svgrepo-com.svg" alt="">
+            </li>
+        </ul>
+        <ul class="list-style-none gap-15 flex ">
+            <li>HTML5 & CSS3 Project
+                <ol class="dropdown">
+                    <li><a href="Modul 6 flower-shop/index.html"> Flower-Shop</a></li>
+                </ol>
+            </li>
+            <li>JavaScript Project
+                <ol class="dropdown">
+                    <li><a href="Modul 6 flower-shop/index.html"> Flower-Shop</a></li>
+                </ol>
+            </li>
+            <li><img src="user-circle-svgrepo-com.svg" alt=""></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
