@@ -1,0 +1,30 @@
+h1{
+    background-color: gray;
+    text-align: center;
+    padding: 15px;
+}
+h1:hover{
+    background-color: lightgray;
+    color: blueviolet;
+}
+li {
+    font-size: 60px;
+}
+
+a:visited{
+    color: yellow;
+    
+}
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+    /* text-align: center; */
+    
+}
+
+ol{
+    display: flex;
+    justify-content: center;
+    display: ;
+}

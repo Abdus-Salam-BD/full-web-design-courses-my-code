@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-2 Explore HTML5 nav, main, header, footer, section, article, time</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .title{
+            background-color: cadetblue;
+            padding: 8px;
+            color: white;
+        }
+
+        nav{
+            background-color: azure;
+            display: flex; 
+            justify-content: space-between;
+            justify-items: center;
+            padding: 10px 15px;
+        }
+
+        .logo-text{
+           
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 800;
+            font-size: 20px;
+
+        }
+
+
+        ul{
+            margin-right: 25px;
+            list-style: none;
+            display: flex;
+            justify-items: center;
+            justify-content: center;
+            gap: 25px;
+            
+        }
+        ul > li > a{
+            text-decoration: none;
+            font-weight: 800;
+        }
+        .c-orange{
+            color: orange;
+            font-size: 45px;
+        }
+
+        header{
+            background-color: blueviolet;
+            padding: 25px;
+            font-size: 25px;
+            color: white;
+            text-align: center;
+        }
+        main{
+            background-color: aqua;
+            color: orange;
+            font-size: 75px;
+            padding: 85px;
+            text-align: center;
+
+
+        }
+        section{
+            background-color: aquamarine;
+            color: white;
+            padding: 15px;
+        }
+        article{
+            background-color: white;
+            color: black;
+            font-size: 16px;
+        }
+        footer{
+            background-color: black;
+            color: orange;
+            font-size: 25px;
+            text-align: center;
+            padding: 70px;
+
+        }
+        small{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">4-2 Explore HTML5 nav, main, header, footer, section, article, time</div>
+    <nav>
+        <div class="logo-text">
+            Fave <span class="c-orange">C</span>oder
+
+        </div>
+
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Cources</a></li>
+            <li><a href="">Time</a></li>
+
+            <li><a href="">About Me</a></li>
+            <li><a href="">Contect</a></li>
+            
+        </ul>
+
+    </nav>
+
+    <header>Header Section</header>
+    <main>Main Section
+        <section>Section 
+            <article>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, nulla inventore, ratione molestiae velit omnis in assumenda natus maxime illum quae alias modi accusantium. Maxime enim optio doloribus aliquid praesentium.</article>
+        </section>
+       
+    </main>
+
+    <footer>
+        This is Footer Area 
+<br>
+<br>
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident voluptates aut eaque nisi. Fuga, voluptate! Quidem excepturi ex quia?</small>
+
+    </footer>
+
+</body>
+</html>

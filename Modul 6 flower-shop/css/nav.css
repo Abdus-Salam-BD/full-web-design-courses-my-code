@@ -1,0 +1,37 @@
+
+/* Navigation Style Started helre */
+nav{
+    background-color: lightgray;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+
+nav > ul > li > a{
+    text-decoration: none;
+}
+nav > ul{
+    list-style: none;
+}
+nav > ul > li{
+    padding: 5px;
+    
+}
+nav > ul > li:hover{
+    background-color: cadetblue;
+    padding: 5px;
+}
+.logo-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-size: 35px; */
+    color: green;
+
+
+}
+.search-radius{
+    border-radius: 20px 0 0 20px ;
+}
+.search-btn-radius{
+    border-radius: 0 20px 20px 0 ;
+}
+/* Navigation Style Ends helre */

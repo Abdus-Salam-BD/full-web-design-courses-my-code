@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7-3 Create login form and flexible nav using flexbox</title>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<h1>7-3 Create login form and flexible nav using flexbox</h1>
+
+<h1>Login from Here</h1>
+
+<form class="flex flex-center " action="">
+    <fieldset class="" >
+        <legend>Login </legend>
+<div class="">
+    
+    <label for="Phone">Phone or Email: <input type="text" name="Phone" placeholder="Phone Number or Email"></label> 
+    <br>
+    <br>
+    <label for="password">Your  Password:<input type="password" name="password" id=""> </label>
+    
+    <input type="button" value="Login">
+</div>
+    </fieldset>
+</form>
+    
+<h1>Nave Here</h1>
+
+<nav class="flex flex-content-between p-10 bg-loght-gray ">
+    <ul class="list-style-none">
+        <li>Logo Here</li>
+    </ul>
+    <ul class="flex gap-16 list-style-none">
+        <li>Home</li>
+        <li>About Us </li>
+        <li id="show-contect" >Contect 
+            <ol id="show-me" class="display-hidden reletive">
+                <li>Contect</li>
+                <li>Contect</li>
+                <li>Contect</li>
+                <li>Contect</li>
+            </ol>
+        </li>
+        <li></li>
+        <li>Log in</li>
+    </ul>
+</nav>
+<script src="js-ds.js"></script>
+</body>
+</html>

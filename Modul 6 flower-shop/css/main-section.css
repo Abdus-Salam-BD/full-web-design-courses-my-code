@@ -1,0 +1,40 @@
+
+/* Our Featured Flowers Section Styles started here  */
+.card-img{
+    width: 20rem;
+    height: 23rem;
+    /* background-color: blue; */
+    border-radius: 50% 50% 0 0;
+}
+
+/* Our Featured Flowers Section Styles Ends here  */
+
+/* Hot Deal ! Sale Up To 25% Off Section Style Started Here  */
+
+
+/* Hot Deal ! Sale Up To 25% Off Section Style Ends Here  */
+
+/* Instagram Section Started styles Here */
+.get-latest-container{
+    width: 100%;
+    /* height: 449px; */
+    margin: 0 auto;
+}
+
+.get-latest{
+    
+    background-image: url(../images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+   
+}
+
+.mt-60{
+    margin-top: 60px;
+}
+
+.latest{
+    height: 30px;
+    font-size: 24px;
+}
+
+/* Instagram Section Started styles Here */

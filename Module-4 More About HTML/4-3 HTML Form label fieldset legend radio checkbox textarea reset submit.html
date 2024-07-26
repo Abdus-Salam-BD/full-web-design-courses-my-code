@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-3 HTML Form label fieldset legend radio checkbox textarea reset submit
+    </title>
+    <style>
+        *{
+            margin-bottom: 10px;
+        }
+       
+        h1{
+            background-color: blueviolet;
+            padding: 12px;
+        }
+        legend{
+            font-size: 25px;
+        }
+        #in{
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            border-radius: 50%;
+        }
+
+        #login-btn{
+            background-color: olive;
+            font-weight: 800;
+            padding: 0px 8px;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>4-3 HTML Form label fieldset legend radio checkbox textarea reset submit
+    </h1>
+
+    <form action="">
+        <input type="checkbox" name="Vorta"  id="alu"> <label for="alu">Alu Vorta</label>
+        <input type="checkbox" name="Vorta"  id="bagun"> <label for="bagun">Bagun Vorta</label>
+        <input type="checkbox" name="Vorta"  id="morich"> <label for="morich">Morich Vorta</label>
+
+    </form>
+  <form action="">
+    <fieldset>
+        <legend>Log<span id="in">in</span></legend>
+
+        <label for="phone-email">Your Phone or Email:</label>
+        <input id="phone-email" placeholder="Mobile or Email" type="text">
+        <br>
+        <br>
+        <label for="password">Your Phone or Email:</label>
+        <input id="password" placeholder="Login password" type="password">
+        
+        <input type="radio" name="verify" id="vf"> <label  for="vf" >Verify</label>
+        <input type="radio" name="verify" id="uvf"> <label  for="uvf" >Unerify</label>
+
+
+        <input id="login-btn" type="button" value="Login">
+
+    </fieldset>
+  </form>
+
+    
+</body>
+</html>

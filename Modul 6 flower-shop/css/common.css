@@ -1,0 +1,173 @@
+/* Common Css Started here */
+body{
+    max-width: 1500px;
+    margin: 0 auto ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* Cursor pointer */
+.pointer{
+    cursor: pointer;
+}
+/* Stext styles started here */
+.text-center{
+    text-align: center;
+}
+.text-decoation-none{
+    text-decoration: none;
+}
+.list-style-none{
+    list-style: none;
+}
+.text-9xl{
+    font-size: 56px;
+}
+.text-6xl{
+    font-size: 46px;
+}
+.text-4xl{
+    font-size: 26px;
+}
+.tex-white{
+    color: white;
+}
+.text-orange{
+    color: orange;
+}
+.p-8{
+    padding: 8;
+}
+.px-26{
+    padding: 0 26px;
+}
+.p-25{
+    padding:  10% 0;
+}
+.p-16{
+    padding: 26px;
+}
+.p-3-rem{
+    padding: 3rem;
+}
+
+.mt-26{
+    margin-top: 26px;
+}
+.mt-40{
+    margin-top: 46px;
+}
+/* =================== */
+.w-70{
+     width: 70%;
+}
+.w-50{
+    width: 50%;
+}
+.w-1000
+/* =================== */
+
+/* Stext styles Ends here */
+/* Margin Style Started here */
+.mx-auto{
+    margin: 0 auto;
+}
+.my-auto{
+    margin: auto 0;
+}
+/* Margin Style Ends here */
+
+/* Background color Style started here */
+.bg-black{
+    background-color: black;
+}
+.bg-t-banner{
+    background: rgba(229, 84, 115, 0.1);
+}
+.bg-card-img-1{
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.bg-card-img-2{
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.bg-card-img-3{
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.btn-primary {
+    color: #fff;
+    font-family: Lato;
+    padding: 8px 16px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 8px;
+    background: #e55473;
+  }
+/* Background color Style Ends here */
+
+/* Flex Style Started here */
+.flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-col-rev{
+    flex-direction: column-reverse;
+}
+
+.content-center{
+    justify-content: center;
+}
+.content-between{
+    justify-content: space-between;
+}
+.content-around{
+    justify-content: space-around;
+}
+.content-evenly{
+    justify-content: space-evenly;
+}
+
+.items-center{
+    justify-items: center;
+}
+
+/* Flex Style ends here */
+
+/* Positional Styles Started here */
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+
+.left-15{
+    left: 15;
+}
+.left-15-n{
+    left: -15px;
+}
+
+/* Positional Styles Ends here */
+
+/* Gap  Started here*/
+.gap-16{
+    gap: 16px;
+}
+
+.gap-26{
+    gap: 26px;
+}
+/* Gap  Ends here*/
+
+.shadow-md{
+    box-shadow: 3px 3px 20px gray;
+}
+
+/* Common Css Ends here */

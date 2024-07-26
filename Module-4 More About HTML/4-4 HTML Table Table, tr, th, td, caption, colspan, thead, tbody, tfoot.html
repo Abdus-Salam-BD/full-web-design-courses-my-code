@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-4 HTML Table Table, tr, th, td, caption, colspan, thead, tbody, tfoot</title>
+    <style>
+        .class-title{
+           background-color: linen; 
+           padding: 15px 20px;
+           color: blue;
+           text-align: center;
+        }
+        .table-area{
+            background-color: lightseagreen;
+            padding: 30px;
+            margin: 0 auto;
+            text-align: center;
+
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            flex-direction: column;
+        }
+
+        table{
+            border: 2px solid black;
+            border-collapse: collapse;
+
+        }
+         td{
+            border: 2px solid black;
+            padding: 10px;
+        }
+        tbody{
+            background-color: lightblue;
+
+        }
+        
+         th{
+            
+            margin: 0;
+            padding: 10px;
+            border: 2px solid black;
+            background-color: lightcoral;
+            font-weight: bold;
+
+        }
+        tfoot{
+            background-color: brown;
+        }
+        
+        tbody > tr > td{
+            cursor: copy;
+        }
+        tfoot > tr > td > a{
+            cursor: pointer;
+            background-color: yellow;
+            text-decoration: none;
+            color: green;
+           padding: 5px;
+
+        }
+        .table-title{
+           color: whitesmoke;
+           
+        }
+    </style>
+</head>
+<body>
+    <h3 class="class-title">4-4 HTML Table Table, tr, th, td, caption, colspan, thead, tbody, tfoot</h3>
+    
+    <section class="table-area">
+
+        
+        <table>
+           
+       <thead>
+        <tr > <h1  class="table-title">This is a Table</h1> </tr>
+        <tr>
+            <th>Ns</th>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Phone Number</th>
+            <th>Home Phone Number</th>
+            <th>Email Address</th>
+            <th>Website</th>
+
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+         <tbody>
+            <td>1</td>
+            <td>Abdus Salam</td>
+            <td>Darush, KornaHar, Paba, Rajshahi -6210</td>
+            <td>+8801518-674860</td>
+            <td>+8801603-353996</td>
+            <td>dodojo2523@vasomly.com</td>
+            <td>www.google.com</td>
+         </tbody>
+        </tr>
+
+       </tbody>
+
+       <tfoot>
+        
+        <tr>
+            <td>Note</td>
+            <td><a href="">Verifyed</a></td>
+            <td><a href="">Verifyed</a></td>
+            <td><a href="">Verifyed</a></td>
+            <td><a href="">Verifyed</a></td>
+            <td><a href="">Verifyed</a></td>
+            <td><a href="">Not Verifyed</a></td>
+            
+        </tr>
+        
+       </tfoot>
+        </table>
+
+    </section>
+
+
+</body>
+</html>

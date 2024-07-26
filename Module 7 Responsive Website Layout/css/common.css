@@ -1,0 +1,136 @@
+h1{
+    background-color: slategray;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.p-10{
+    padding: 1rem;
+}
+.p-20{
+    padding: 2rem;
+}
+.bg-loght-gray{
+    background-color: lightgray;
+}
+.bg-gray{
+    background-color: gray;
+}
+.flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-col-rev{
+    flex-direction: column-reverse;
+}
+.flex-row-rev{
+    flex-direction: row-reverse;
+}
+.flex-center{
+    justify-content: center;
+}
+.flex-items-center{
+    justify-items: center;
+}
+.flex-content-between{
+    justify-content: space-between;
+}
+
+
+.gap-8{
+    gap: 8px;
+}
+.gap-16{
+    gap: 16px;
+}
+
+.w-200{
+    width: 200px;
+}
+.text-center{
+    text-align: center;
+}
+.list-style-none{
+    list-style: none;
+}
+
+.display-hidden{
+    display: none;
+
+}
+
+#show-contect{
+    background-color: blueviolet;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.reletive{
+
+    position: relative;
+}
+
+.grid{
+    display: grid;
+}
+.grid-col-3{
+    grid-template-columns: repeat(3, 1fr) ;
+   
+}
+.grid-col-7{
+    grid-template-columns: repeat(7, 5rem);
+}
+
+.grid-row-6{
+grid-template-rows: repeat(6, 50px);
+}
+.date{
+    border-radius: 5px;
+    
+    background-color: lightgreen;
+}
+.date:hover{
+    opacity: 0.8;
+    color: blueviolet;
+}
+.day:hover{
+    opacity: 0.9;
+    color: aqua;
+}
+.day{
+    font-weight: 900;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.now{
+    color: white;
+    font-weight: 800;
+    border-radius: 0.9rem;
+    border: 2px double white;
+
+}
+
+.box{
+    background-color: aqua;
+}
+.gap-2{
+    gap: 2rem;
+}
+.grid-col-4{
+    grid-template-columns: repeat(4, 1fr);
+}
+.max-width-62rem{
+max-width: 62rem;
+}
+.mx-auto{
+    margin: 0 auto;
+}
+.min-box{
+    background-color: lightsalmon;
+}

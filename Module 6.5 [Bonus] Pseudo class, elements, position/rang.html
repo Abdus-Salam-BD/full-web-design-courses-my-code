@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range Slider Example</title>
+    <style>
+        input[type=range] {
+            width: 100%; /* রেঞ্জ স্লাইডারের প্রস্থ নির্ধারণ করা */
+        }
+        input[type=range]::-ms-fill-lower {
+            background: black; /* রেঞ্জ স্লাইডারের নিচের অংশের ব্যাকগ্রাউন্ড রঙ পরিবর্তন */
+        }
+        input[type=range]::-ms-fill-upper {
+            background: burlywood; /* রেঞ্জ স্লাইডারের উপরের অংশের ব্যাকগ্রাউন্ড রঙ পরিবর্তন */
+        }
+    </style>
+</head>
+<body>
+    <h2>Range Slider with -ms-fill-lower</h2>
+    <input type="range" min="0" max="100" value="50">
+</body>
+</html>

@@ -1,0 +1,61 @@
+
+/* Responsiv container */
+
+/* Search hidden */
+/* @media screen and (max-width: 890px) {
+
+    .sm-display-hidden{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 284px) {
+
+    .sm-display-hidden-285{
+        display: none;
+       
+        
+    }
+    
+} */
+
+
+
+/* header Flex colmmun */
+/* 
+@media screen and (max-width: 890px) {
+    .md-flex-col{
+        flex-direction: column;
+     
+
+    } */
+    /* .md-full-w{
+        width: 70%;
+    } */
+    /* .md-mx-auto{
+        margin: 0 auto;
+    }
+    .md-flex-col-rev{
+        flex-direction: column-reverse; */
+        /* background-color: lightgrey; */
+
+    }
+
+    /* .md-p-tb-8{
+        padding-bottom: 25px ;
+    }
+
+    0.md-hidden{
+        display: none;
+    }
+} */
+
+/* minimum show  */
+/* 
+@media screen and (min-width: 890px){
+    .md-min-show{
+        display: none ;
+    }
+} */
+
+

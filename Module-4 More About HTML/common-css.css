@@ -1,0 +1,92 @@
+.class-title{
+    background-color: aqua;
+    padding: 11px;
+    
+}
+
+.bg-nav{
+    min-height: 15px;
+    background-color: lightseagreen;
+}
+.p-10{
+    padding: 10px;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+.content-center{
+    justify-content: center;
+}
+.content-between{
+    
+    justify-content: space-between;
+}
+.content-end{
+    justify-content: end;
+}
+
+.content-start{
+    justify-content: start;
+}
+
+.iteme-center{
+    justify-items: center;
+}
+
+.iteme-start{
+    justify-items: start;
+}
+
+.iteme-center{
+    justify-items: center;
+}
+.iteme-between{
+    justify-items: ;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+.gap-10{
+    gap: 10px;
+}
+
+/* .li{
+    cursor: pointer;
+} */
+
+ul> li{
+    cursor: pointer;
+}
+
+ul > li:hover{
+    background-color: aqua;
+    font-weight: 800;
+    color: blue;
+    padding: 8px;
+    border-radius: 7px;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px 20px lightseagreen;
+}
+
+.text-18{
+    background-color: lightpink;
+    font-weight: 800;
+    color: ;
+    padding: 8px;
+    border-radius: 7px;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px 20px lightseagreen;
+
+}
+
+.hidden{
+    display: none;
+}
+#class:hover{
+    
+}

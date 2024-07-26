@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-7 CSS Display none, hidden, inline, block, inline-block, box-shadow</title>
+    <link rel="stylesheet" href="css/style-2-4.css">
+    <style>
+        *{
+            margin: 0;
+        }
+        h1{
+            background-color: silver;
+            padding: 8px;
+        }
+        .box{
+            margin-top: 15px;
+            width: 250px;
+            height: 200px;
+            background-color: blueviolet;
+        }
+        .display-hidden:hover{
+            display: none;
+        }
+        .p-25{
+            padding-top: 30%;
+        }
+
+        .display-inline{
+
+            display: inline;
+        }
+
+        .shadow-box:hover{
+            box-shadow: 50px 20px 100px 40px  skyblue;
+        }
+            
+    </style>
+</head>
+<body class="text-center">
+    <h1>2-7 CSS Display none, hidden, inline, block, inline-block, box-shadow</h1>
+ 
+    <div class="display-hidden box">
+        <h2 class="p-25">Click hidden</h2>
+    </div>
+
+    <div class="">
+        <h2 class="display-inline">Hello</h2>
+        <h2 class="display-inline">, </h2>
+        <h2 class="display-inline">How </h2>
+        <h2 class="display-inline">are </h2>
+        <h2 class="display-inline">You</h2>
+        <h2 class="display-inline">?</h2>
+
+    </div>
+
+    <div class="box shadow-box"> Box shadow </div>
+
+
+    
+</body>
+</html>

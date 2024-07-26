@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-5 CSS Borders Border, border-radius, Margin, different ways to set margin</title>
+    <style>
+        .box-1{
+            background-color: gray;
+            margin: 0;
+            padding: 25%;
+        }
+        .mini-box{
+            background-color: blueviolet;
+            text-align: center;
+            padding: 20px;
+            font-weight: 800;
+            color: white;
+            margin-top: 10px;
+            width: 200px;
+            height: 200px;
+           
+        }
+        .mini-box-1{
+            border: 5px solid green;
+            border-radius: 5px;
+        }
+        .mini-box-2{
+            border-radius: 100%;
+            justify-content: center;
+
+        }
+        
+        .mini-box-3{
+            border-radius: 50%;
+            justify-content: center;
+
+        }
+        .mini-box-4{
+            border-radius: 25%;
+            justify-content: center;
+
+        }
+
+    </style>
+    <link rel="stylesheet" href="css/style-2-4.css">
+</head>
+<body style="margin: 0;">
+    <Section>
+        <h1>2-5 CSS Borders Border, border-radius, Margin, different ways to set margin</h1>
+
+        <div class="box-1 ">
+
+            <div class="mini-box-1 mini-box w-7 h-5 mx-auto ">Border green 5px border-radius 5px</div>
+            <div class="mini-box mini-box-2 flex content-center " ><h1>Border-Radius100%</h1></div>
+            <div class="mini-box mini-box-3">radius 50%</div>
+            <div class="mini-box mini-box-4">radius 25%</div>
+
+        </div>
+    </Section>
+
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4-6 (optional) Nested mega menu dropdown option on mouseover</title>
+    <link rel="stylesheet" href="common-css.css">
+    <style>
+        body nav img{
+            width: 35px;
+        }
+        body{
+            max-width: 1000px;
+            margin: 0 auto;
+
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: lightgray;
+            padding: 5px 22px;
+            
+
+        }
+        nav > ul{
+            display: flex;
+            gap: 18px;
+            list-style: none;
+
+        }
+        nav{
+            margin: 0 40px;
+        }
+        nav  li .dropdown{
+            display: none;
+        }
+
+/* 
+        body:hover nav li > .dropdown{
+            display: block;
+            position: absolute;
+            background-color: lightsalmon;
+            padding: 20px;
+            list-style: none;
+        } */
+
+        nav li:hover > .dropdown{
+            display: block;
+            position: absolute;
+            background-color: lightsalmon;
+            padding: 20px;
+            list-style: none;
+        }
+
+
+
+    </style>
+</head>
+<body class="">
+    <h1 class="class-title">4-6 (optional) Nested mega menu dropdown option on mouseover</h1>
+
+    <nav class="flex content-between ">
+        <ul class="">
+            <li><img src="nav-svgrepo-com.svg" alt=""></li>
+        </ul>
+
+        <ul class="flex gap-10 list-style-none">
+            <li>Home<ul class="dropdown">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul></li>
+            <li>About</li>
+            <li >contect
+                <ul class="dropdown">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4
+                        <ul class="dropdown">
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4
+                                <ul class="dropdown">
+                                    <li>1</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4
+                                        <ul class="dropdown">
+                                            <li>1</li>
+                                            <li>2</li>
+                                            <li>3</li>
+                                            <li>4
+                                                <ul class="dropdown">
+                                                    <li>1</li>
+                                                    <li>2</li>
+                                                    <li>3</li>
+                                                    <li>4<ul class="dropdown">
+                                                        <li>1</li>
+                                                        <li>2</li>
+                                                        <li>3</li>
+                                                        <li>4<ul class="dropdown">
+                                                            <li>1</li>
+                                                            <li>2</li>
+                                                            <li>3</li>
+                                                            <li>4</li>
+                                                        </ul></li>
+                                                    </ul></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Login</li>
+        </ul>
+
+    </nav>
+
+    
+</body>
+</html>

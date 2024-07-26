@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6_5-1 Pseudo class hover, visited, focus</title>
+    <link rel="stylesheet" href="css/common-style.css">
+    <style>
+        input{ 
+            margin-left: 20px;
+            width: 200px;
+            height: 50px;
+            font-size: 30px;
+        }
+        .change::placeholder{
+
+            color: blue;
+            font-size: 25px;
+            text-align: center;
+        }
+        .change{
+            outline: 0;
+            text-align: center;
+            border: 0 ;
+            border-bottom: 2px solid gray;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>6_5-1 Pseudo class hover, visited, focus</h1>
+    <h1>visited</h1>
+    <ol>
+        <li><a href="https://www.google.com">Google</a></li>
+        <li><a href="https://famok.org/">Famok</a></li>
+        <li><a href="https://docs.google.com/document/d/17IRyxXJ0pVF9u-VOKlBB8AEXQxoQe_ogfPBDA6f4rGc/edit">My doc</a></li>
+    </ol>
+
+    <input id="defolt"  placeholder="Defoult" type="text">
+    <input placeholder="Change " class="change" type="text">
+
+</body>
+</html>
