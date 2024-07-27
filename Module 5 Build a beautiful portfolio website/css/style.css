@@ -1,0 +1,125 @@
+@font-face {
+    font-family: Open-Sans;
+    src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: Open-Sans-itali;
+    src: url(../font/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}
+  
+
+body{
+    font-family: Open-Sans;
+  max-width: 1600px;
+  margin: 0 auto;
+
+    
+    
+}
+header{
+    /* min-height: 700px; */
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.bg-venetian-red{
+    background-color: #FFF8F3;
+}
+.bg-btn{
+    background-color: #FD6E0A;
+}
+.text-philippine-orange{
+    color: #FD6E0A;
+}
+.text-eerie-black{
+    color: #181818;
+}
+.text-white{
+    color: #FFFFFF;
+}
+.text-45{
+    font-size: 2.813rem;
+}
+.text-20{
+    font-size: 1.1rem;
+}
+.text-86{
+    font-size: 5.375rem;
+}
+.font-bold{
+    font-weight: 800;
+}
+
+nav{
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+}
+nav li  {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+}
+.content-between{
+    justify-content: space-between;
+}
+.content-center{
+    justify-content: center;
+}
+.itemes-center{
+    justify-items: center;
+}
+.gap-2{
+    gap: 2rem;
+}
+
+.p-4{
+    padding: .3rem 2rem;
+}
+
+.btn-primary{
+    padding: 0.3rem .9rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+}
+
+.p-2{
+    font-size: 2rem;
+}
+
+.w-50{
+    width: 50%;
+}
+/* .banner-image-aria{
+    margin-left: 3rem;
+    
+} */
+.banner-image-aria img{
+    width: 80%;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-seme-bold{
+    font-weight: 700;
+}
+.mx-auto{
+    margin: 0 auto;
+}
+
+.text-left{
+    text-align: left;
+}
+.w-45{
+    width: 79%;
+}
+.mh-auto{
+    margin: auto 0;
+}
