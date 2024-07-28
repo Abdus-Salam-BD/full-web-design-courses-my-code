@@ -73,7 +73,7 @@ header{
 }
 
 nav{
-    padding: 2rem;
+    
     position: sticky;
     top: 0;
 }
@@ -85,6 +85,12 @@ a{
 }
 .flex{
     display: flex;
+}
+.block{
+    display: block;
+}
+.flex-col{
+    flex-direction: column;
 }
 .content-between{
     justify-content: space-between;
@@ -98,6 +104,10 @@ a{
 .gap-2{
     gap: 2rem;
 }
+
+.gap-24{
+    gap: 1.5rem;
+}
 .gap-16{
     gap: 1rem;
 }
@@ -109,8 +119,13 @@ a{
 }
 
 .p-4{
-    padding: .7rem 2rem;
+    padding: 0.7rem 2rem;
 }
+.p-3{
+    padding: 0 2rem;
+}
+
+
 .p-30{
     padding: 1.875rem;
 }
@@ -198,6 +213,9 @@ a{
 .gap-50{
     gap: 3.125rem;
 }
+.gap-117{
+    gap: 7rem;
+}
 
 .gap-30{
     gap: 1.875rem;
@@ -231,4 +249,31 @@ button{
 .grid-col-2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+.soc-midia-icon li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.mini-input{
+    height: 4rem;
+    width: 28.813rem;
+    padding: 18px;
+    pointer-events: none;
+}
+input::placeholder{
+    color: #757575;
+}
+textarea{
+    width: 28.813rem;
+    height: 11.25rem ;
+    padding: 18px;
+    resize: none;
+    /* pointer-events: none; */
+}
+
+.submit-btn{
+    width: 150px;
+height: 64px;
+
 }
