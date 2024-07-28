@@ -28,6 +28,19 @@ header{
 .bg-btn{
     background-color: #FD6E0A;
 }
+.bg-white{
+    background-color: #FFF;
+}
+.btn-border{
+    border: 2px solid #FD6E0A;
+}
+
+.card-shadow{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+
+}
+
 .text-philippine-orange{
     color: #FD6E0A;
 }
@@ -40,8 +53,17 @@ header{
 .text-45{
     font-size: 2.813rem;
 }
+.font-sm{
+    font-weight: 400;
+}
 .text-20{
     font-size: 1.1rem;
+}
+.text-25{
+    font-size: 1.563rem;
+}
+.font-think{
+    font-weight: 600;
 }
 .text-86{
     font-size: 5.375rem;
@@ -76,17 +98,42 @@ a{
 .gap-2{
     gap: 2rem;
 }
-
-.p-4{
-    padding: .3rem 2rem;
+.gap-16{
+    gap: 1rem;
 }
-
+.p-135{
+    padding: 1rem 8rem;
+}
+.p-130{
+    padding: 8.125rem 14.375rem;
+}
+.
+.p-4{
+    padding: .7rem 2rem;
+}
+.p-30{
+    padding: 1.875rem;
+}
+.rounded{
+    border-radius: 5px;
+}
 .btn-primary{
-    padding: 0.3rem .9rem;
-    border-radius: 0.5rem;
+    min-width: 9.375rem;
+    min-height: 4rem;
+    padding: 0.75rem;
+    border-radius: 0.313rem;
     font-weight: 700;
 }
-
+.banner-tex-area{
+    background-image: url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    
+    
+}
+.py-4{
+    padding: 9rem ;
+}
 .p-2{
     font-size: 2rem;
 }
@@ -117,8 +164,8 @@ a{
 .text-left{
     text-align: left;
 }
-.w-45{
-    width: 79%;
+.w-40{
+    width: 70%;
 }
 .mh-auto{
     margin: auto 0;
@@ -127,6 +174,9 @@ a{
 /* About started here */
 .text-35{
     font-size: 35px;
+}
+.text-30{
+    font-size: 1.875rem;
 }
 
 .w-1140{
@@ -139,6 +189,9 @@ a{
 .mt-135{
     margin-top:  8.125rem;
 }
+.mt-113{
+    margin-top: 7rem;
+}
 .tex-sonic-silver{
     color: #757575;
 }
@@ -146,14 +199,36 @@ a{
     gap: 3.125rem;
 }
 
+.gap-30{
+    gap: 1.875rem;
+}
+.gap-71{
+    gap: 4.875rem;
+}
+
 .text-h-table{
     color: #474747;
 }
-.tex-l-hight-30{
+.text-l-hight-30{
     line-height: 1.875rem;
+}
+.text-l-hight-28{
+    line-height: 1.75rem;
 }
 .mt-30{
     margin-top: 1.875rem;
 }
-
+button{
+    border: 0;
+    padding: 10px;
+}
 /* About started here */
+
+.grid-col-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid-col-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
