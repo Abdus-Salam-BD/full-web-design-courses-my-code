@@ -17,7 +17,7 @@ body{
     
 }
 header{
-    /* min-height: 700px; */
+    
     background-color: #FFF8F3;
     background-image: url(../images/header_bg.png);background-repeat: no-repeat;
     background-position: right bottom;
@@ -107,7 +107,7 @@ a{
     text-align: center;
 }
 
-.text-seme-bold{
+.font-seme-bold{
     font-weight: 700;
 }
 .mx-auto{
@@ -123,3 +123,37 @@ a{
 .mh-auto{
     margin: auto 0;
 }
+
+/* About started here */
+.text-35{
+    font-size: 35px;
+}
+
+.w-1140{
+    max-width: 1140px;
+    
+}
+.p-156{
+    padding: 8.125rem 9.75rem;
+}
+.mt-135{
+    margin-top:  8.125rem;
+}
+.tex-sonic-silver{
+    color: #757575;
+}
+.gap-50{
+    gap: 3.125rem;
+}
+
+.text-h-table{
+    color: #474747;
+}
+.tex-l-hight-30{
+    line-height: 1.875rem;
+}
+.mt-30{
+    margin-top: 1.875rem;
+}
+
+/* About started here */
