@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Task Here</title>
+    
+    <style>
+        .box-1{
+            background-color: aqua;
+            width: 40vw;
+            height: 30vh;
+        }
+        .box-2{
+            background-color: blue;
+            width: 60vw;
+            height: 30vh;
+        }
+
+        .grid{
+            display: flex;
+        }
+
+        @media screen and (max-width: 556px ) {
+            .grid{
+                flex-direction: column-reverse;
+            }
+            .box-1{
+                width: 100vw;
+            }
+            .box-2{
+                width: 100vw;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h2>Task 1 Started Here</h2>
+
+    <div class="grid">
+        <div class="box-1">
+            <h1>Boox: 1</h1>
+        </div>
+        <div class="box-2">
+            <h1>Boox: 2</h1>
+            
+        </div>
+    </div>
+
+    
+</body>
+</html>

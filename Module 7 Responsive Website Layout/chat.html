@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Responsive Layout with VW Units</title>
+<style>
+    /* মূল স্টাইল */
+.container {
+    display: flex;
+    /* flex-wrap: wrap;  */
+
+}
+
+.div1 {
+    background-color: lightblue;
+    width: 30vw; /* বড় স্ক্রিনের জন্য 30vw */
+}
+
+.div2 {
+    background-color: lightgreen;
+    width: 70vw; /* বড় স্ক্রিনের জন্য 70vw */
+}
+
+/* ছোট স্ক্রিনের জন্য (600px এর কম) */
+@media (max-width: 600px) {
+    .div1, .div2 {
+        width: 100vw; /* ছোট স্ক্রিনের জন্য পূর্ণ প্রস্থ */
+    }
+    .container{
+        flex-direction: column;
+        /* flex-direction: column-reverse; */
+    }
+}
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="div1">Content 1</div>
+        <div class="div2">Content 2</div>
+    </div>
+</body>
+</html>
